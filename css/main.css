@@ -1,0 +1,154 @@
+/*
+--	AES Encryption
+--	Masood Sadri
+*/
+
+a {
+	color: #0099cc;
+	text-decoration: none; 	
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a:visited {color: #0099cc; text-decoration: none;}
+
+a:active {color: #0099cc; text-decoration: none;}
+
+a:hover {color: #7C7C7C; text-decoration: none;}
+
+.nav>li>a:focus, .nav>li>a:hover {background-color: #f1f1f1;}
+
+body {
+	font-family: 'BMitra', 'Lato';
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.top-menu-holder {
+	background-color: #f1f1f1;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo {
+	text-align: left;
+	font-size: 22px;
+	color: #7C7C7C;
+}
+
+.logo h1 {
+	font-size: 22px;
+	margin-top: 11px;
+}
+
+section {
+	padding-top: 100px;
+}
+
+.text {
+	text-align: center;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	color: #7C7C7C;
+	direction: rtl;
+}
+
+.first-description {
+	width: 100%;
+	direction: rtl;
+	font-size: 18px;
+	color: #606669;
+	text-align: center;
+}
+
+.description {
+	width: 100%;
+	direction: rtl;
+	font-size: 18px;
+	color: #606669;
+	text-align: right;
+}
+
+.text textarea, .text input {
+	border-radius: 0px;
+	border: 0px;
+	background-color: #f1f1f1;
+	resize: vertical;
+}
+
+.form-control {
+	-webkit-box-shadow: none;
+	box-shadow: none);
+}
+
+.form-horizontal .form-group {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.enfont {
+	font-family: consolas;
+}
+
+.buttons {
+	display: inline-block;
+}
+
+.buttons button {
+	border-radius: 0px;
+	border-color: #0099cc;
+	background-color: #0099cc;
+	color: #ffffff;
+}
+
+.buttons button:hover {
+	border-radius: 0px;
+	border-color: #0099cc;
+	background-color: #0099cc;
+	color: #ffffff;
+}
+
+.result textarea{
+	color: #0099cc;
+}
+
+.error {
+	display: none;
+}
+
+.alert {
+	border: 0px;
+	border-radius: 0px;
+	font-size: 18px;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	font-size: 18px;
+	color: #7C7C7C;
+	margin-top: 100px;
+}
+
+.footer p {
+	margin-top: 30px;
+}
+
+::selection {
+	background: #dddddd;
+}
+
+::-moz-selection {
+	background: #dddddd;
+}
